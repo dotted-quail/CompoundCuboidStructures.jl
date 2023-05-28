@@ -1,5 +1,6 @@
 module CompoundCuboidStructures
 
-greet() = print("Hello World!")
+include("types.jl")
+export Point, Vec, Edge, Face
 
-end # module CompoundCuboidStructures
+end
